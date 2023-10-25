@@ -1,0 +1,31 @@
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.heading-section {
+    font-size: 30px;
+    color: #000000;
+}
+
+/* Estilo para el encabezado con fondo azul */
+.header {
+    background-color: blue;
+    color: white; /* Color del texto en el encabezado */
+    padding: 40px; /* Espaciado interno para el contenido del encabezado */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
